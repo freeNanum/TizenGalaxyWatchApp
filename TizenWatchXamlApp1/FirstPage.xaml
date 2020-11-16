@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TizenWatchXamlApp1.FirstPage">
+    <ContentPage.Content>
+        <ScrollView Orientation="Vertical">
+            <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand">
+                <Label Text="ScrollView"
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand" 
+                       FontSize="Large"/>
+
+                <Button x:Name="btn01" Text="Item01" BackgroundColor="Red" FontSize="Micro" Padding="10" Clicked="Button_Clicked"/>
+                <Button x:Name="btn02" Text="Item02" BackgroundColor="Green" FontSize="Micro" Padding="10,10,10,10" Clicked="Button_Clicked" />
+                <Button x:Name="btn03" Text="Item03" BackgroundColor="Blue" FontSize="Micro" Padding="10,10,10,10" Clicked="Button_Clicked" />
+                <Button x:Name="btn04" Text="Item04" BackgroundColor="Red" FontSize="Micro" Padding="10,10,10,10" Clicked="Button_Clicked"/>
+                <Button x:Name="btn05" Text="Item05" BackgroundColor="Green" FontSize="Micro" Padding="10,10,10,10" Clicked="Button_Clicked" />
+                <Button x:Name="btn06" Text="Item06" BackgroundColor="Blue" FontSize="Micro" Padding="10,10,10,10" Clicked="Button_Clicked" />
+                <Button x:Name="btn07" Text="Item07" BackgroundColor="Red" FontSize="Micro" Padding="10,10,10,10" Clicked="Button_Clicked"/>
+                <Button x:Name="btn08" Text="Item08" BackgroundColor="Green" FontSize="Micro" Padding="10,10,10,10" Clicked="Button_Clicked" />
+                <Button x:Name="btn09" Text="Item09" BackgroundColor="Blue" FontSize="Micro" Padding="10,10,10,10" Clicked="Button_Clicked" />
+                <Button x:Name="btn10" Text="Item10" BackgroundColor="Red" FontSize="Micro" Padding="10,10,10,10" Clicked="Button_Clicked"/>
+                <Button x:Name="btn11" Text="Item11" BackgroundColor="Green" FontSize="Micro" Padding="10,10,10,10" Clicked="Button_Clicked" />
+                <Button x:Name="btn12" Text="Item12" BackgroundColor="Blue" FontSize="Micro" Padding="10,10,10,10" Clicked="Button_Clicked" />
+                
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

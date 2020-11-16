@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             x:Class="TizenWatchXamlApp1.AbsoluteLayout1">
+    <ContentPage.Content>
+    <!--
+        AbslouteLayout: Absolute x, y point with porportional width and height value.
+    !-->
+                <AbsoluteLayout>
+                    <Label Text="Mint" d:AbsoluteLayout.LayoutBounds="0.5,0,0.4,0.1" 
+                           d:AbsoluteLayout.LayoutFlags="All" 
+                           BackgroundColor="MintCream"/>
+
+    <!--
+        Title==>
+    !-->
+            <Label Text="AbsoluteLayout Ex" d:AbsoluteLayout.LayoutBounds="0.5,0.2,.7,0.1" 
+                                   d:AbsoluteLayout.LayoutFlags="All" 
+                                   BackgroundColor="Black"/>
+    <!--
+        Title<==
+    !-->
+            <Label Text="Red" d:AbsoluteLayout.LayoutBounds="0,0.5,0.3,0.1" 
+                                   d:AbsoluteLayout.LayoutFlags="All" 
+                                   BackgroundColor="Red"/>
+                    
+                    <Label Text="Green" d:AbsoluteLayout.LayoutBounds="1, 0.5, 120,100" 
+                           d:AbsoluteLayout.LayoutFlags="PositionProportional" 
+                           BackgroundColor="Green"/>
+                    <Label Text="Blue" d:AbsoluteLayout.LayoutBounds="0.5,0.5,100,50" 
+                           d:AbsoluteLayout.LayoutFlags="PositionProportional"
+                           BackgroundColor="Blue"/>
+                    <Label Text="Yellow" d:AbsoluteLayout.LayoutBounds=".5,1,150,100" 
+                           d:AbsoluteLayout.LayoutFlags="PositionProportional" 
+                           BackgroundColor="Yellow"/>
+
+                </AbsoluteLayout>
+    <!--
+
+    !-->
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TizenWatchXamlApp1.ButtonEx">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" Margin="10" Padding="20">
+            <Label Text="Button Ex"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Button x:Name="btn01" Text="button01" BackgroundColor="Gray" 
+                    Clicked="btn_Clicked" />
+            <Button x:Name="btn02" Text="button02" BackgroundColor="Green" 
+                    Clicked="btn_Clicked" />
+            <Button x:Name="btn03" Text="button03" BackgroundColor="Red" 
+                    Clicked="btn_Clicked" />
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

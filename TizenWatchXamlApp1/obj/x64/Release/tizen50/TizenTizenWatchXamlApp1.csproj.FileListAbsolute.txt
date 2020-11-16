@@ -1,0 +1,11 @@
+E:\Users\bini\Tizen-Xamarin.Forms\TizenWatchXamlApp1\TizenWatchXamlApp1\bin\x64\Release\tizen50\tpkroot\bin\TizenWatchXamlApp1.dll
+E:\Users\bini\Tizen-Xamarin.Forms\TizenWatchXamlApp1\TizenWatchXamlApp1\bin\x64\Release\tizen50\tpkroot\bin\Tizen.Wearable.CircularUI.Forms.Renderer.dll
+E:\Users\bini\Tizen-Xamarin.Forms\TizenWatchXamlApp1\TizenWatchXamlApp1\bin\x64\Release\tizen50\tpkroot\bin\Tizen.Wearable.CircularUI.Forms.dll
+E:\Users\bini\Tizen-Xamarin.Forms\TizenWatchXamlApp1\TizenWatchXamlApp1\bin\x64\Release\tizen50\tpkroot\bin\Xamarin.Forms.Core.dll
+E:\Users\bini\Tizen-Xamarin.Forms\TizenWatchXamlApp1\TizenWatchXamlApp1\bin\x64\Release\tizen50\tpkroot\bin\Xamarin.Forms.Platform.Tizen.dll
+E:\Users\bini\Tizen-Xamarin.Forms\TizenWatchXamlApp1\TizenWatchXamlApp1\bin\x64\Release\tizen50\tpkroot\bin\Xamarin.Forms.Platform.dll
+E:\Users\bini\Tizen-Xamarin.Forms\TizenWatchXamlApp1\TizenWatchXamlApp1\bin\x64\Release\tizen50\tpkroot\bin\Xamarin.Forms.Xaml.dll
+E:\Users\bini\Tizen-Xamarin.Forms\TizenWatchXamlApp1\TizenWatchXamlApp1\bin\x64\Release\tizen50\tpkroot\TizenWatchXamlApp1.deps.json
+E:\Users\bini\Tizen-Xamarin.Forms\TizenWatchXamlApp1\TizenWatchXamlApp1\bin\x64\Release\tizen50\tpkroot\shared\res\TizenWatchXamlApp1.png
+E:\Users\bini\Tizen-Xamarin.Forms\TizenWatchXamlApp1\TizenWatchXamlApp1\bin\x64\Release\tizen50\tpkroot\tizen-manifest.xml
+E:\Users\bini\Tizen-Xamarin.Forms\TizenWatchXamlApp1\TizenWatchXamlApp1\bin\x64\Release\tizen50\org.tizen.example.TizenWatchXamlApp1-1.0.0.tpk

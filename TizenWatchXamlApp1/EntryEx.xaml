@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TizenWatchXamlApp1.EntryEx">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Margin="5" Padding="5" HorizontalOptions="CenterAndExpand" >
+            <Label Text="Entry Ex" FontSize="Title"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+                <Label Text="Name" HorizontalOptions="CenterAndExpand" FontSize="Micro" />
+                <Entry x:Name="eName" Keyboard="Default" />
+
+                <Label Text="Id"  HorizontalOptions="CenterAndExpand" FontSize="Micro" />
+                <Entry x:Name="eId" Keyboard="Text" />
+
+                <Label Text="eMail"  HorizontalOptions="CenterAndExpand" FontSize="Micro" />
+                <Entry x:Name="eMail" Keyboard="Email" />
+
+                <Label Text="Phone"  HorizontalOptions="CenterAndExpand" FontSize="Micro" />
+                <Entry x:Name="ePhone" Keyboard="Telephone" />
+
+                <Label Text="Grade" HorizontalOptions="CenterAndExpand" FontSize="Micro" />
+                <Entry x:Name="eGrade" Keyboard="Numeric" />
+
+            <Button Text="Confirm" Clicked="Button_Clicked" Margin="30" FontSize="Large"/>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

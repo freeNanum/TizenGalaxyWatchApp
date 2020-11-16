@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TizenWatchXamlApp1.FrameEx">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame HasShadow="False" VerticalOptions="Start" Padding="5">
+                    <Label Text="Frame Ex"
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand" />
+                </Frame>
+
+                <Frame HasShadow="true" VerticalOptions="Start" Padding="5">
+                    <ScrollView Orientation="Horizontal">
+                        <StackLayout Orientation="Horizontal" >
+                            <Label Text="Jaehong" Padding="10" />
+                            <Label Text="010-2396-3325" Padding="10" />
+                            <Label Text="smiley@kakao.com" Padding="10" />
+                        </StackLayout>
+                    </ScrollView>
+                </Frame>
+
+                <Frame HasShadow="true" VerticalOptions="Start" Padding="5">
+                    <ScrollView Orientation="Horizontal">
+                        <StackLayout Orientation="Horizontal" >
+                            <Label Text="Jaeseong" Padding="10" />
+                            <Label Text="010-5496-7725" Padding="10" />
+                            <Label Text="macho@daum.net" Padding="10" />
+                        </StackLayout>
+                    </ScrollView>
+                    
+                </Frame>
+
+                <Frame HasShadow="true" VerticalOptions="Start" Padding="5">
+                    <ScrollView Orientation="Horizontal">
+                        <StackLayout Orientation="Horizontal" >
+                            <Label Text="Jaegon" Padding="10" />
+                            <Label Text="010-3476-7735" Padding="10" />
+                            <Label Text="wiz@naver.com" Padding="10" />
+                        </StackLayout>
+                    </ScrollView>
+                    
+                </Frame>
+
+                <Frame HasShadow="true" VerticalOptions="Start" Padding="5">
+                    <ScrollView Orientation="Horizontal">
+                        <StackLayout Orientation="Horizontal" >
+                            <Label Text="Seongbin" Padding="10" />
+                            <Label Text="010-2396-3325" Padding="10" />
+                            <Label Text="smiley@kakao.com" Padding="10" />
+                        </StackLayout>
+                    </ScrollView>
+                    
+                </Frame>
+
+                <Frame HasShadow="true" VerticalOptions="Start" Padding="5">
+                    <ScrollView Orientation="Horizontal">
+                        <StackLayout Orientation="Horizontal" >
+                            <Label Text="Subin" Padding="10" />
+                            <Label Text="010-5496-7725" Padding="10" />
+                            <Label Text="macho@daum.net" Padding="10" />
+                        </StackLayout>
+                    </ScrollView>
+                    
+                </Frame>
+
+                <Frame HasShadow="true" VerticalOptions="Start" Padding="5">
+                    <ScrollView Orientation="Horizontal">
+                        <StackLayout Orientation="Horizontal" >
+                            <Label Text="Yongwook" Padding="10" />
+                            <Label Text="010-3476-7735" Padding="10" />
+                            <Label Text="wiz@naver.com" Padding="10" />
+                        </StackLayout>
+                    </ScrollView>
+                    
+                </Frame>
+
+                <Frame HasShadow="true" VerticalOptions="Start" Padding="5">
+                    <ScrollView Orientation="Horizontal">
+                        <StackLayout Orientation="Horizontal" >
+                            <Label Text="Hyunil" Padding="10" />
+                            <Label Text="010-2396-3325" Padding="10" />
+                            <Label Text="smiley@kakao.com" Padding="10" />
+                        </StackLayout>
+                    </ScrollView>
+                    
+                </Frame>
+
+                <Frame HasShadow="true" VerticalOptions="Start" Padding="5">
+                    <ScrollView Orientation="Horizontal">
+                        <StackLayout Orientation="Horizontal" >
+                            <Label Text="Seongil" Padding="10" />
+                            <Label Text="010-5496-7725" Padding="10" />
+                            <Label Text="macho@daum.net" Padding="10" />
+                        </StackLayout>
+                    </ScrollView>
+                    
+                </Frame>
+
+                <Frame HasShadow="true" VerticalOptions="Start" Padding="5">
+                    <ScrollView Orientation="Horizontal">
+                        <StackLayout Orientation="Horizontal" >
+                            <Label Text="Youngil" Padding="10" />
+                            <Label Text="010-3476-7735" Padding="10" />
+                            <Label Text="wiz@naver.com" Padding="10" />
+                        </StackLayout>
+                    </ScrollView>
+                    
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+            
+    </ContentPage.Content>
+</ContentPage>

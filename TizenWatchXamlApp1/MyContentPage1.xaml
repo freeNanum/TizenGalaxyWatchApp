@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TizenWatchXamlApp1.MyContentPage1"
+             xmlns:local="clr-namespace:TizenWatchXamlApp1" >
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout HorizontalOptions="CenterAndExpand">
+                <Label Text="CustomPage"
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand" />
+
+                <local:MyContentView1 Name="Jaehong" Major="football" Nation="Korea" Gender="Male" Age="40" />
+                <local:MyContentView1 Name="Yongwook" Major="baseball" Nation="US" Gender="Male" Age="51" />
+                <local:MyContentView1 Name="Hyunil" Major="soccer" Nation="Japan" Gender="Male" Age="54" />
+                <local:MyContentView1 Name="Jaegon" Major="football" Nation="China" Gender="Male" Age="37" />
+                <local:MyContentView1 Name="Seongbin" Major="tennis" Nation="Denmark" Gender="Male" Age="13" />
+                <local:MyContentView1 Name="Seongil" Major="volleyball" Nation="UK" Gender="Male" Age="44" />
+                <local:MyContentView1 Name="Subin" Major="football" Nation="India" Gender="Female" Age="13" />
+                <local:MyContentView1 Name="Youngah" Major="soccer" Nation="Korea" Gender="Female" Age="56" />
+                <local:MyContentView1 Name="Woojung" Major="football" Nation="Japan" Gender="Male" Age="77" />
+                <local:MyContentView1 Name="Sosoon" Major="baseball" Nation="China" Gender="Female" Age="65" />
+                <local:MyContentView1 Name="Cheolhee" Major="hockey" Nation="India" Gender="Female" Age="46" />
+                <local:MyContentView1 Name="Jihwan" Major="soccer" Nation="China" Gender="Male" Age="24" />
+                <local:MyContentView1 Name="Jichan" Major="football" Nation="Korea" Gender="Male" Age="22" />
+                
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

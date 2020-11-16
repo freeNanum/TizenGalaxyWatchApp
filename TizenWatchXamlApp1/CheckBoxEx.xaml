@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TizenWatchXamlApp1.CheckBoxEx">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="CheckBox Ex" FontSize="Caption"
+                HorizontalOptions="CenterAndExpand" />
+
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Pizza" FontSize="Micro"
+                       Margin="20,0,0,0"
+                       BackgroundColor="Green"
+                      
+                       HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="FillAndExpand" />
+                
+                <CheckBox x:Name="cbPizza" Color="Green"
+                          HorizontalOptions="CenterAndExpand"
+                          CheckedChanged="cbOnCheckedChanged" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Cock " FontSize="Micro"
+                       Margin="20,0,0,0"
+                       BackgroundColor="Green"
+                     
+                       HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="FillAndExpand" />
+                
+                <CheckBox x:Name="cbCock" Color="Green"
+                          HorizontalOptions="CenterAndExpand"
+                          CheckedChanged="cbOnCheckedChanged" />
+            </StackLayout>
+            
+            <Label x:Name="labelMenu"
+                  FontSize="Micro"
+                  BackgroundColor="Black"
+                  Margin="100,0,50,0" />
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

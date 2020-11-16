@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TizenWatchXamlApp1.ScrollViewHori">
+    <ContentPage.Content>
+        <ScrollView Orientation="Horizontal">
+            <StackLayout Orientation="Horizontal" VerticalOptions="CenterAndExpand">
+                <Label Text="ScrollView"
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand" 
+                        VerticalTextAlignment="Start" 
+                       FontSize="Large"/>
+
+                <Label Text="Item01" BackgroundColor="Red" FontSize="Micro" Padding="10"/>
+                <Label Text="Item02" BackgroundColor="Green" FontSize="Micro" Padding="10,10,10,10"/>
+                <Label Text="Item03" BackgroundColor="Blue" FontSize="Micro" Padding="10,10,10,10"/>
+                <Label Text="Item04" BackgroundColor="Red" FontSize="Micro" Padding="10,10,10,10"/>
+                <Label Text="Item05" BackgroundColor="Green" FontSize="Micro" Padding="10,10,10,10"/>
+                <Label Text="Item06" BackgroundColor="Blue" FontSize="Micro" Padding="10,10,10,10"/>
+                <Label Text="Item07" BackgroundColor="Red" FontSize="Micro" Padding="10,10,10,10"/>
+                <Label Text="Item08" BackgroundColor="Green" FontSize="Micro" Padding="10,10,10,10"/>
+                <Label Text="Item09" BackgroundColor="Blue" FontSize="Micro" Padding="10,10,10,10"/>
+                <Label Text="Item10" BackgroundColor="Red" FontSize="Micro" Padding="10,10,10,10"/>
+                <Label Text="Item11" BackgroundColor="Green" FontSize="Micro" Padding="10,10,10,10"/>
+                <Label Text="Item12" BackgroundColor="Blue" FontSize="Micro" Padding="10,10,10,10"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TizenWatchXamlApp1.PopupEx">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="PopUp Ex" FontSize="Caption"
+                HorizontalOptions="CenterAndExpand" />
+
+            <Button Text="Alert Btn" x:Name="btn01" Clicked="btn_Clicked"/>
+            <Button Text="Choose Btn" x:Name="btn02" Clicked="btn_Clicked"/>
+            <Button Text="Action Btn" x:Name="btn03" Clicked="btn_Clicked"/>
+
+            <Label Text="PopupResult" x:Name="labelPopup" Margin="0,0,0,0"
+                   HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

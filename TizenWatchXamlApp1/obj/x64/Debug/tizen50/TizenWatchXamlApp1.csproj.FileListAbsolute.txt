@@ -1,0 +1,11 @@
+E:\Users\bini\Tizen-Xamarin.Forms\TizenWatchXamlApp1\TizenWatchXamlApp1\bin\x64\Debug\tizen50\TizenWatchXamlApp1.deps.json
+E:\Users\bini\Tizen-Xamarin.Forms\TizenWatchXamlApp1\TizenWatchXamlApp1\bin\x64\Debug\tizen50\TizenWatchXamlApp1.dll
+E:\Users\bini\Tizen-Xamarin.Forms\TizenWatchXamlApp1\TizenWatchXamlApp1\bin\x64\Debug\tizen50\TizenWatchXamlApp1.pdb
+E:\Users\bini\Tizen-Xamarin.Forms\TizenWatchXamlApp1\TizenWatchXamlApp1\obj\x64\Debug\tizen50\App.xaml.g.cs
+E:\Users\bini\Tizen-Xamarin.Forms\TizenWatchXamlApp1\TizenWatchXamlApp1\obj\x64\Debug\tizen50\MainPage.xaml.g.cs
+E:\Users\bini\Tizen-Xamarin.Forms\TizenWatchXamlApp1\TizenWatchXamlApp1\obj\x64\Debug\tizen50\TizenWatchXamlApp1.AssemblyInfoInputs.cache
+E:\Users\bini\Tizen-Xamarin.Forms\TizenWatchXamlApp1\TizenWatchXamlApp1\obj\x64\Debug\tizen50\TizenWatchXamlApp1.AssemblyInfo.cs
+E:\Users\bini\Tizen-Xamarin.Forms\TizenWatchXamlApp1\TizenWatchXamlApp1\obj\x64\Debug\tizen50\TizenWatchXamlApp1.csproj.CoreCompileInputs.cache
+E:\Users\bini\Tizen-Xamarin.Forms\TizenWatchXamlApp1\TizenWatchXamlApp1\obj\x64\Debug\tizen50\XamlC.stamp
+E:\Users\bini\Tizen-Xamarin.Forms\TizenWatchXamlApp1\TizenWatchXamlApp1\obj\x64\Debug\tizen50\TizenWatchXamlApp1.dll
+E:\Users\bini\Tizen-Xamarin.Forms\TizenWatchXamlApp1\TizenWatchXamlApp1\obj\x64\Debug\tizen50\TizenWatchXamlApp1.pdb

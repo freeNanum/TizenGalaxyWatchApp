@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TizenWatchXamlApp1.MyContentView1">
+  <ContentView.Content>
+      <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" >
+        <Label Text="CustomView" />
+           
+        <Label x:Name="pName" Text="박재홍" Padding="7" BackgroundColor="Green" FontSize="Micro"/>
+        <Label x:Name="pMajor" Text="Football" Padding="7" BackgroundColor="Green" FontSize="Micro"/>
+        <Label x:Name="pNation" Text="Korean" Padding="7" BackgroundColor="Green" FontSize="Micro"/>
+        <Label x:Name="pGender" Text="Male" Padding="7" BackgroundColor="Green" FontSize="Micro"/>
+        <Label x:Name="pAge" Text="40" Padding="7" BackgroundColor="Green" FontSize="Micro"/>
+
+      </StackLayout>
+  </ContentView.Content>
+</ContentView>

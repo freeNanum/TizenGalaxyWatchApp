@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TizenWatchXamlApp1.EditorEx">
+    <ContentPage.Content>
+        <StackLayout Margin="20">
+            <Label Text="Editor Ex"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Editor BackgroundColor="Gray"
+                    TextColor="LightGray"
+                    FontAttributes="Bold"
+                    Placeholder="Please input below"
+                    IsReadOnly="True" />
+
+            <Editor x:Name="eMsg"
+                    BackgroundColor="Green"
+                    Placeholder="Input your message"
+                    VerticalOptions="FillAndExpand" />
+
+
+            <Button Text="Confirm" Clicked="Button_Clicked" />
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

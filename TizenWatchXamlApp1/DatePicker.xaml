@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TizenWatchXamlApp1.DatePicker">
+    <ContentPage.Content>
+        <StackLayout Padding="10">
+            <Label Text="DatePicker Ex" FontSize="Caption"
+                HorizontalOptions="CenterAndExpand" />
+
+            <DatePicker x:Name="dp" Date="01/01/2020"
+                        MinimumDate="12/07/1972"
+                        MaximumDate="12/31/2030"
+                        HorizontalOptions="CenterAndExpand"
+                        FontSize="20" Margin="0,20,0,0"
+                        DateSelected="dp_DateSelected" />
+
+            <Label x:Name="labeDP" Text="Selected Date" Padding="10"
+                   FontSize="5" FontAttributes="Bold" BackgroundColor="Green"
+                   HorizontalTextAlignment="Center" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

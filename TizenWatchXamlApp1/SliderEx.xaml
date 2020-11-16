@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TizenWatchXamlApp1.SliderEx">
+    <ContentPage.Content>
+        <StackLayout Padding="20">
+            <Label Text="Slider Ex" FontSize="Title" 
+                   HorizontalOptions="CenterAndExpand" VerticalOptions="Center" 
+                   Margin="0,20,0,0"/>
+            
+            <Slider x:Name="slider01"  VerticalOptions="Center"  HorizontalOptions="Center"
+                    ValueChanged="Slider_ValueChanged"
+                    Margin="15,0,15,0" />
+            <Label Text="slider(0~10) " x:Name="label01" FontSize="Micro" 
+                   HorizontalOptions="Center" VerticalOptions="Center" />
+        
+            <Slider x:Name="slider02" VerticalOptions="Center"  HorizontalOptions="Center"
+                    ValueChanged="Slider_ValueChanged"
+                    Margin ="15,30,15,0"/>
+            <Label Text="slider(0~1)"  x:Name="label02" FontSize="Micro" 
+                   HorizontalOptions="Center" VerticalOptions="Center" />
+          
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

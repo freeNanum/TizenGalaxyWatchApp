@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TizenWatchXamlApp1.FlexEx">
+    <ContentPage.Content>
+        <FlexLayout Direction="Column" 
+                    AlignItems="Center"
+                    JustifyContent="SpaceBetween"
+                    BackgroundColor="LightGray">
+            
+            <Label Text="Red" Padding="10"
+                BackgroundColor="Red" />
+
+            <Label Text="Green" Padding="10"
+                BackgroundColor="Green" />
+
+            <Label Text="Blue" Padding="10"
+                BackgroundColor="Blue" />
+            
+        </FlexLayout>
+    </ContentPage.Content>
+</ContentPage>
