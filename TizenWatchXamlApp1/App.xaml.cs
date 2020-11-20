@@ -48,10 +48,13 @@ namespace TizenWatchXamlApp1
             //MainPage = new TizenWatchXamlApp1.TimePicker(); // Not supported.
 #endif
 
+#if true
+            //MainPage = new NavigationPage(new TizenWatchXamlApp1.FirstPage());
+#else
             /* Page navigation test*/
             //MainPage = new NavigationPage(new TizenWatchXamlApp1.FirstPage()); //<== Page Navi on Xaml. Not supported.
             //MainPage = new TizenWatchXamlApp1.FirstPage(); ////<== Page Navi on CS. Not supported.
-
+#endif
 
             /*
              * 
@@ -64,7 +67,11 @@ namespace TizenWatchXamlApp1
              * "FrameEx()"
              * 
              */
-            MainPage = new TizenWatchXamlApp1.ScrollViewVertical();
+#if true
+            MainPage = new NavigationPage(new TizenWatchXamlApp1.FirstPage());
+            //MainPage = new TizenWatchXamlApp1.ScrollViewVertical();
+#endif
+
 
 #if DEBUG
             TizenHotReloader.HotReloader.Open(this);
