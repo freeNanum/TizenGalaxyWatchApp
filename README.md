@@ -1,3 +1,5 @@
+[한국어 버전 보기](README.ko.md)
+
 # Tizen Galaxy Watch Xamarin.Forms Samples
 
 This project is a comprehensive collection of sample implementations for various UI components and features, designed to assist developers in building Tizen Galaxy Watch applications using Xamarin.Forms (C#.NET). It serves as a practical guide and reference for understanding and utilizing different aspects of Xamarin.Forms on the Tizen wearable platform.
@@ -93,3 +95,9 @@ To build and run this project, you will need:
 ## License
 
 This project is licensed under the [LICENSE](LICENSE) file. Please refer to the `LICENSE` file for more details.
+
+## Contact
+
+For any inquiries or feedback, please contact:
+
+*   **Jaehong Park** - jaehong1972@gmail.com
